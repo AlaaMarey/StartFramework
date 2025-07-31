@@ -1,0 +1,26 @@
+
+section 
+{
+background-color: var(--bg-color); 
+color:var(--white-color) ;
+  margin-top: 80px;
+  padding-block: 150px;
+
+}
+section .container {
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+section p {
+  font-family: roboto-regular;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+section {
+  padding-block: 60px;
+  color: var(--white-color);
+  background-color: var(--main-color);
+}
+
+section h3 {
+  font-family: roboto-medium;
+}
+
+section p {
+  font-family: roboto-regular;
+}
+.social-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-menu li {
+  margin-inline: 4px;
+  padding-block: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

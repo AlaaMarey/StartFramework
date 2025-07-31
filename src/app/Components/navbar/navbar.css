@@ -1,0 +1,23 @@
+nav {
+  padding-block: 15px;
+  background-color: var(--main-color) !important;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+}
+
+nav ul li {
+  margin-inline: 15px;
+}
+
+nav a {
+  color: var(--white-color);
+  font-family: roboto-bold;
+}
+
+.active {
+  background-color: var(--bg-color);
+  color: var(--white-color) !important ;
+  border-radius: 10px;
+}

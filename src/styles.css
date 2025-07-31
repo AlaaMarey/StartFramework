@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+@font-face {
+    font-family:roboto-bold ;
+    src: url(/fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:roboto-regular;
+    src: url(/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(/public/fonts/Roboto-Medium.ttf);
+font-weight: 500;
+}
+
+
+
+:root {
+  --white-color: #fff;
+  --main-color: #2c3e50;
+  --bg-color: #1abc9c;
+ --copyright-bg-color:#1A252F ;}
+section .star-icon {
+    position: relative; 
+}
+section .star-icon::after {
+content:  '';
+background-color: var(--white-color);
+width: 80px;
+height: 4px;
+position: absolute;
+top: 50%;
+left: 150%;
+transform: translateY( -50%);
+}
+ section .star-icon::before {
+    content: '';
+    background-color: var(--white-color);
+width: 80px;
+height: 4px;
+position: absolute;
+top: 50%;
+right: 150%;
+transform: translateY( -50%);
+}
+
+
+section h2 {
+    font-size: 40px ;
+    font-weight: 700;
+    font-family: roboto-bold;
+}

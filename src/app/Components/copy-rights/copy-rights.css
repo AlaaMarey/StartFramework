@@ -1,0 +1,10 @@
+section {
+  padding-block:20px;
+  color: var(--white-color);
+  background-color: var(--copyright-bg-color);
+  text-align:center 
+}
+
+section h4 {
+  font-family:roboto-regular;
+}
