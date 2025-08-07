@@ -8,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class Portofolio {
 
+  imgSrc !: string; 
+
+
+  showImage( imgSrc:string ) {
+    
+    this.imgSrc = imgSrc; 
+    
+
+
+
+  }
+
+
 }

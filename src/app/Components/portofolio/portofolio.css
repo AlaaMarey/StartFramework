@@ -1,11 +1,10 @@
 section {
-    margin-top: 70px;
-    padding-block: 60px;
-    color: var(--main-color);
+  margin-top: 70px;
+  padding-block: 60px;
+  color: var(--main-color);
 }
-section .star-icon 
-{
-color: var(--main-color);
+section .star-icon {
+  color: var(--main-color);
 }
 
 section .card {
@@ -31,14 +30,22 @@ section .card:hover .overlay {
   opacity: 1;
 }
 
-section .star-icon{
-    color:var(--main-color);
+section .star-icon {
+  color: var(--main-color);
 }
-section .star-icon::after{
-    left:55%;
-    background-color: var(--main-color);
+section .star-icon::after {
+  left: 55%;
+  background-color: var(--main-color);
 }
-section .star-icon::before{
-    right:55%;
-    background-color: var(--main-color);
+section .star-icon::before {
+  right: 55%;
+  background-color: var(--main-color);
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-content {
+  transform: translateY(50%);
 }

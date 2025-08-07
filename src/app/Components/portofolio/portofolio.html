@@ -1,15 +1,19 @@
 <section>
   <div class="container text-center">
-
     <h1 class="text-uppercase">portoflio component</h1>
 
-    <div class="star-icon  w-50  m-auto">
+    <div class="star-icon w-50 m-auto">
       <i class="fa-solid fa-star"></i>
     </div>
 
     <div class="row g-4 pt-5">
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage('/images/portfolioImages/poert1.png')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/poert1.png"
             alt="PortoflioImage1"
@@ -22,7 +26,12 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage(' /images/portfolioImages/port2.png ')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/port2.png"
             alt="portoflioImage2"
@@ -36,7 +45,12 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage(' /images/portfolioImages/port3.png ')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/port3.png"
             alt="PortoflioImage3"
@@ -49,7 +63,12 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage('/images/portfolioImages/poert1.png')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/poert1.png"
             alt="PortfolioImage3"
@@ -62,7 +81,12 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage(' /images/portfolioImages/port2.png')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/port2.png"
             alt="PortfolioImage2"
@@ -75,7 +99,12 @@
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div
+          class="card"
+          (click)="showImage('/images/portfolioImages/port3.png')"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           <img
             src="/images/portfolioImages/port3.png"
             alt="PortofolioImage3"
@@ -89,3 +118,26 @@
     </div>
   </div>
 </section>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+
+      
+      <div class="modal-body">
+        <img [src]="imgSrc" alt="" class="w-100" />
+      </div>
+
+
+      
+    </div>
+  </div>
+</div>
